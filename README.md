@@ -10,7 +10,9 @@ Run the following command :
 gcc main.c -o main
 ```
 
-And then, to create a server run :
+## Usage :
+
+To create a server run :
 
 ```bash
 ./main -s
