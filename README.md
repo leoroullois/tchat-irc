@@ -29,3 +29,12 @@ Finally, create a writer :
 ```bash
 ./main -w <@IP> <port> <pseudo>
 ```
+
+# Makefile helpers
+
+Specials variables :
+- $@ nom cible
+- $< nom première dépendance
+- $^ liste dépendances
+- $? liste dépendances plus récentes que la cible
+- $* nom fichier, sans son extension
